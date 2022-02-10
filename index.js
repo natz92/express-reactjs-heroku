@@ -9,7 +9,7 @@ const path = require('path');
 
 // 미들웨어 함수를 특정 경로에 등록
 app.use('/api/data', function(req, res) {
-    res.json({ greeting: 'Hello World' });
+    res.json({ greeting: 'I Want Victoria Lemon taste.' });
 });
 
 // 기본 포트를 app 객체에 설정
